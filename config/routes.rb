@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   resources :post, only: [:new, :create, :index]
+  routes "posts#index"
 end
