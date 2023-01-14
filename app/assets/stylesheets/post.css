@@ -9,3 +9,7 @@ textarea {
 label {
   display: block;
 }
+
+[type='submit'] {
+  margin-top: 12px;
+}
