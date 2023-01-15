@@ -1,6 +1,17 @@
 header {
   display: flex;
   justify-content: space-between;
+  height: 70px;
+  padding: 0 10px;
+  background-color: #264653;
+  color: #eee
+}
+
+header .title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 nav {
@@ -13,10 +24,23 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 15px;
+  height: 100%;
 }
 
 nav a {
   text-decoration: none;
   color: inherit;
+  padding: 10px 12px;
+}
+
+
+
+#create_post {
+  background-color: #f4a261;
+  border: 1px solid #e76f51;
+  color: #264653;
+
+
 }

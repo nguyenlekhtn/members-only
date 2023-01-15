@@ -6,7 +6,7 @@ textarea {
   font-size: 100%;
 }
 
-label {
+.posts label {
   display: block;
 }
 
@@ -32,7 +32,7 @@ label {
 }
 
 .post {
-  background-color: lightyellow;
+  border: 2px solid #264653;
   border-radius: 12px;
   display: flex;
   flex-direction: column;

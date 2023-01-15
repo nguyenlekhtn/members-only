@@ -3,14 +3,14 @@
   <nav>
     <ul>
       <li>
-        <%= link_to "View all posts", posts_path %>
+        <%= link_to "Posts", posts_path %>
       </li>
       <li>
-        <%= link_to "Create new post",  new_post_path %>
+        <%= link_to "Create",  new_post_path, id: "create_post" %>
       </li>
       <li>
         <% if user_signed_in? %>
-          <%= link_to "Sign out", destroy_user_session_path  %>
+          <%= link_to "Sign Out", destroy_user_session_path, data: {turbo_method: :delete}, class:  "nav-link"  %>
         <% else %>
           <%= link_to "Sign in", new_user_session_path %>
         <% end %>
