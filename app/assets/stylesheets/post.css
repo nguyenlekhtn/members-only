@@ -13,3 +13,42 @@ label {
 [type='submit'] {
   margin-top: 12px;
 }
+
+.posts .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.posts_title {
+  text-align: center;
+}
+
+.posts_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: repeat(auto-fit, 300px);
+  column-gap: 24px;
+  margin-top: 12px;
+}
+
+.post {
+  background-color: lightyellow;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.post .title {
+  text-align: center;
+}
+
+.post .author {
+  align-self: flex-end;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.post .body {
+  margin-top: 1em;
+}
