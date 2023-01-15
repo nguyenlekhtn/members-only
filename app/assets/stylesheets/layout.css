@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  justify-self: flex-end;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
