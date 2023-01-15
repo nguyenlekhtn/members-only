@@ -1,24 +1,25 @@
-# README
+# Member Only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is an exclusive clubhouse where members can write anonymous posts. Inside the clubhouse, members can see who the author of a post, but, outside, they can only see the story and wonder who wrote it.
 
-Things you may want to cover:
+The requirements is from [The Odin Project's Project: Members Only!](https://www.theodinproject.com/lessons/ruby-on-rails-members-only) 
 
-* Ruby version
+## Technology
+* Rails 7.0.4
+* Devise gem for authentication
 
-* System dependencies
+## Setup
 
-* Configuration
+* Clone this project
+* cd member-only
+* bundle install
+* rails db:migrate
+* rails server
 
-* Database creation
+## Live demo
+[Live version](https://member-only.learneveryday.dev/)
 
-* Database initialization
+## Author
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Feel free to reach out  
+[<code><img height="26" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png"></code>](https://www.linkedin.com/in/le-nguyen-0bb862144/)
